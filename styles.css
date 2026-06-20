@@ -122,20 +122,18 @@ main h2 {
   margin-top: 2rem;
 }
 
-.downforce-drag-img {
-
-}
-
-.drs-img {
-  
-}
-
-.active-aero-img{
-}
-
 .drs-aero-img {
   margin-top: 2rem;
   display: grid;
   grid-template-columns: 3fr 2fr;
   gap: 1rem
+}
+
+/* Power-unit css */
+
+.pu-img {
+  margin-bottom: 2rem;
+  display: flex;
+  gap: .5em;
+  justify-content: space-around;
 }
