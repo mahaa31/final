@@ -123,9 +123,10 @@ main h2 {
 }
 
 .drs-aero-img {
+  width: 100%;
   margin-top: 2rem;
   display: grid;
-  grid-template-columns: 3fr 2fr;
+  grid-template-columns: 1fr 1fr;
   gap: 1rem
 }
 
@@ -137,3 +138,26 @@ main h2 {
   gap: .5em;
   justify-content: space-around;
 }
+
+
+/* Drivers css */
+
+.teams {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
+}
+
+.teams h3{
+  grid-column: span 2;
+  text-align: center;
+}
+
+.driver img {
+  width: 100px;
+}
+
+
